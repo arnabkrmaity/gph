@@ -1,0 +1,15 @@
+Package: gph
+Title: Bayesian Time-to-Event High Dimensional Density Regression
+Version: 0.0.1
+Authors@R: 
+    c(person("Arnab Kumar", "Maity", email = "Arnab.Maity@pfizer.com", role = c("aut", "cre")))
+Description: This provides functionalities to perform simultaneous Bayesin variable selection 
+             and density regression using Horseshoe prior when the response is right censored.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5.0)
+Imports: mvtnorm, msm, tmvtnorm, truncdist, MHadaptive, foreach, doParallel, SuppDists,
+         ipred, survival
+Suggests: 
+RoxygenNote: 7.1.2
