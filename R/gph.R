@@ -33,8 +33,13 @@
 #' \item{LeftCI}{left boundaries of 95\% Bayesian credible intervals of \eqn{\beta}}
 #' \item{RightCI}{right boundaries of 95\% Bayesian credible intervals of \eqn{\beta}}
 #'
-#' @importFrom stats dnorm median pnorm rnorm runif rgamma var
-#' @importFrom parallel detectCores makeCluster
+#' @importFrom stats dnorm median pnorm rnorm runif rgamma var sortedXyData NLSstClosestX
+#' @importFrom parallel detectCores makeCluster  
+#' @importFrom SuppDists rinvGauss
+#' @importFrom MHadaptive makePositiveDefinite
+#' @importFrom foreach foreach dopar registerDoParallel
+#' @importFrom MASS mvrnorm
+#' @importFrom mvtnorm dmvnorm
 #' 
 #' 
 #' @export
