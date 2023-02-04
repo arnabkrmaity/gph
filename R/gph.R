@@ -37,7 +37,7 @@
 #' @importFrom parallel detectCores makeCluster  
 #' @importFrom SuppDists rinvGauss
 #' @importFrom MHadaptive makePositiveDefinite
-#' @importFrom foreach foreach dopar registerDoParallel
+#' @importFrom foreach foreach registerDoParallel
 #' @importFrom MASS mvrnorm
 #' @importFrom mvtnorm dmvnorm
 #' 
