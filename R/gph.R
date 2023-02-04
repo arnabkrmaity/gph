@@ -37,9 +37,11 @@
 #' @importFrom parallel detectCores makeCluster  
 #' @importFrom SuppDists rinvGauss
 #' @importFrom MHadaptive makePositiveDefinite
-#' @importFrom foreach foreach registerDoParallel
+#' @importFrom foreach foreach
 #' @importFrom MASS mvrnorm
 #' @importFrom mvtnorm dmvnorm
+#' @importFrom doParallel registerDoParallel
+#' @importFrom doRNG %dopar%
 #' 
 #' 
 #' @export
